@@ -16,6 +16,8 @@
     "url": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate/issues"
   },
   "homepage": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.12.3"
   }
 }
