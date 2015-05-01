@@ -1,0 +1,21 @@
+{
+  "name": "Leaflet.SmoothMarkerUpdate",
+  "version": "0.0.0",
+  "description": "Uses CSS transition to transition the marker placement",
+  "main": "smoothMarkerUpdate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate"
+  },
+  "author": "ianwcarlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate/issues"
+  },
+  "homepage": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate",
+  "devDependencies": {
+  }
+}
