@@ -16,7 +16,10 @@
     "url": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate/issues"
   },
   "homepage": "https://github.com/ianwcarlson/Leaflet.SmoothMarkerUpdate",
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0"
+  },
   "dependencies": {
     "express": "^4.12.3"
   }

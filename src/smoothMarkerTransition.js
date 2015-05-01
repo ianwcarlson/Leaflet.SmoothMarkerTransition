@@ -1,4 +1,4 @@
-L.SmoothMarkerUpdate = L.Marker.extend({
+L.SmoothMarkerTransition = L.Marker.extend({
   options: {
     traverseTime: 1000,
     clickable: false
@@ -20,6 +20,6 @@ L.SmoothMarkerUpdate = L.Marker.extend({
   }
 });
 
-L.smoothMarkerUpdate = function (latlngs, options) {
-  return new L.SmoothMarkerUpdate(latlngs, options);
+L.smoothMarkerTransition = function (latlngs, options) {
+  return new L.smoothMarkerTransition(latlngs, options);
 };
