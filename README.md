@@ -1,5 +1,5 @@
 # Leaflet.SmoothMarkerTransition
-Just extends basic Leaflet marker and whenever position is updated the marker will use CSS transition to move to the new position.  This repo is highly inspired by this [Leaflet plugin](https://github.com/openplans/Leaflet.AnimatedMarker).
+Plugin for Leaflet that extends the basic marker and whenever position is updated the marker will use CSS transition to move to the new position.  This repo is highly inspired by this [Leaflet plugin](https://github.com/openplans/Leaflet.AnimatedMarker).
 
 This type of animation is good for real-time mapping applications that update GPS coordinates at regular intervals.  Without the animation, the markers have stuttered movement.
 
