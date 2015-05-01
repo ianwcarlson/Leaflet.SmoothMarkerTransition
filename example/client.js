@@ -1,12 +1,5 @@
 (function(){
 
-	var bikeIcon = L.icon({
-	  iconUrl: 'marker-bike-green-shadowed.png',
-	  iconSize: [25, 39],
-	  iconAnchor: [12, 39],
-	  shadowUrl: null
-	});
-
 	var position = {
 		lat: 35.1,
 		lon: -106.6
