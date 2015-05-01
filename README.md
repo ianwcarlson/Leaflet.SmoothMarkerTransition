@@ -9,7 +9,7 @@ For more about [Leaflet](http://leafletjs.com/)
 To run the example app locally:
 - Install [Node](http://nodejs.org/)
 - Install [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- Git clone this repo `git clone https://github.com/ianwcarlson/hatTeamSelector` in your development directory
+- Git clone this repo `git clone https://github.com/ianwcarlson/Leaflet.SmoothMarkerTransition` in your development directory
 - Navigate to new project file and Install NPM packages
 ```
 npm install
