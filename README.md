@@ -18,6 +18,6 @@ npm install
 ```
 node example/server.js
 ```
-Open a browser up to `localhost:3698`
+- Open a browser up to `localhost:3698`
 
 
