@@ -1,8 +1,7 @@
 L.SmoothMarkerTransition = L.Marker.extend({
   options: {
     traverseTime: 1000,
-    clickable: false,
-    markerID: ''
+    clickable: false
   },
 
   initialize: function (latlngs, options) {
@@ -18,10 +17,6 @@ L.SmoothMarkerTransition = L.Marker.extend({
 
     // Move to the next position
     this.setLatLng(latlngs);
-  },
-
-  getMarkerID: function(){
-    return this.options.markerID;
   }
 });
 
