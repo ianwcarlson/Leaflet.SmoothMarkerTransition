@@ -1,7 +1,8 @@
 L.SmoothMarkerTransition = L.Marker.extend({
   options: {
     traverseTime: 1000,
-    clickable: false
+    clickable: false,
+    markerID: ''
   },
 
   _holdOffTransition: false,
@@ -11,6 +12,7 @@ L.SmoothMarkerTransition = L.Marker.extend({
   },
 
   transition: function(latlngs) {
+    // Not why I can't do this on initialize()
     this._applyStyleChanges();
     // Move to the next position
     this.setLatLng(latlngs);
@@ -33,7 +35,8 @@ L.SmoothMarkerTransition = L.Marker.extend({
   },
 
   setTransitionTime: function(transitionTime){
-    this.options.traverseTime = transitionTime;     
+    this.options.traverseTime = transitionTime;
+    this._applyStyleChanges();     
   },
 
   _applyStyleChanges: function(){
